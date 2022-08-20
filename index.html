@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>---</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="app">
+
+          <div class="top-wrapper">
+            <div class="app-topbar">
+              <div class="check-parts" id="check-parts">
+               
+                
+              </div>
+              <!-- //===== FILE UPLOAD ===== -->
+                <input type="file" name="model" id="upload-input">
+                <button type="submit" id="upload-btn">upload</button>
+              <!-- ===== FILE UPLOAD ===== -->
+  
+              <div class="choose-color">
+                <input type="color" id="color-changer">
+              </div>
+            </div>
+          </div>
+      
+
+          <div class="top-wrapper">
+            <div class="tools-bar">
+              <span class="tools-bar--title">Change material</span>
+              <div class="material-controller">
+                <input type="file" id="change-material">
+                <label for="upload-model">
+                  Choose File
+                </label>
+              </div>
+              <span class="textureName" id="textureName"></span>
+
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <canvas class="trip-canvas"></canvas>
+          </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
